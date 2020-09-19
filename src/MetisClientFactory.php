@@ -13,21 +13,20 @@ use Phpro\SoapClient\Soap\Driver\ExtSoap\ExtSoapOptions;
  */
 class MetisClientFactory
 {
-
-  /**
-   * @param string $wsdl
-   *
-   * @return \sanduhrs\Metis\MetisClient
-   */
-  public static function factory(string $wsdl) : MetisClient
+    /**
+     * @param string $wsdl
+     * @param array $options
+     *
+     * @return \sanduhrs\Metis\MetisClient
+     */
+    public static function factory(string $wsdl, array $options = []) : MetisClient
     {
         $engine = ExtSoapEngineFactory::fromOptions(
-            ExtSoapOptions::defaults($wsdl, [])
+            ExtSoapOptions::defaults($wsdl, $options)
                 ->withClassMap(MetisClassmap::getCollection())
         );
         $eventDispatcher = new EventDispatcher();
 
         return new MetisClient($engine, $eventDispatcher);
     }
-
 }
