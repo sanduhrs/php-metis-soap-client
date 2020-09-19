@@ -9,6 +9,9 @@
             "email": "stefan@auditor.email"
         }
     ],
+    "autoload": {
+        "psr-4": { "sanduhrs\\Metis\\": "src/" }
+    },
     "require": {
         "phpro/soap-client": "^1.3"
     },
