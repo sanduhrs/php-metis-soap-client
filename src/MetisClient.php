@@ -24,7 +24,7 @@ class MetisClient extends Client
      * @return ResultInterface|Type\OrderPixelResponse
      * @throws SoapException
      */
-    public function orderPixel(OrderPixelRequest $orderPixelRequest) : OrderPixelResponse
+    public function orderPixel(OrderPixelRequest $orderPixelRequest): OrderPixelResponse
     {
         return $this->call('orderPixel', $orderPixelRequest);
     }
@@ -34,7 +34,7 @@ class MetisClient extends Client
      * @return ResultInterface|Type\PixelOverviewResponse
      * @throws SoapException
      */
-    public function pixelOverview(PixelOverviewRequest $pixelOverviewRequest) : PixelOverviewResponse
+    public function pixelOverview(PixelOverviewRequest $pixelOverviewRequest): PixelOverviewResponse
     {
         return $this->call('pixelOverview', $pixelOverviewRequest);
     }

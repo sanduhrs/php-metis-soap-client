@@ -19,7 +19,7 @@ class MetisClientFactory
      *
      * @return \sanduhrs\Metis\MetisClient
      */
-    public static function factory(string $wsdl, array $options = []) : MetisClient
+    public static function factory(string $wsdl, array $options = []): MetisClient
     {
         $engine = ExtSoapEngineFactory::fromOptions(
             ExtSoapOptions::defaults($wsdl, $options)

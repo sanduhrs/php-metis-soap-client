@@ -16,7 +16,7 @@ class MetisClassmap
     /**
      * @return \Phpro\SoapClient\Soap\ClassMap\ClassMapCollection
      */
-    public static function getCollection() : ClassMapCollection
+    public static function getCollection(): ClassMapCollection
     {
         return new ClassMapCollection([
             new ClassMap('orderPixelRequest', Type\OrderPixelRequest::class),
