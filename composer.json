@@ -1,0 +1,18 @@
+{
+    "name": "sanduhrs/metis-soap-client",
+    "description": "The Metis (VG Wort) soap api client implementation.",
+    "type": "library",
+    "license": "GPL-2-or-later",
+    "authors": [
+        {
+            "name": "Stefan Auditor",
+            "email": "stefan@auditor.email"
+        }
+    ],
+    "require": {
+        "phpro/soap-client": "^1.3"
+    },
+    "require-dev": {
+        "laminas/laminas-code": "^3.1.0"
+    }
+}
