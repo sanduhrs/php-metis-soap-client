@@ -13,11 +13,10 @@ use Phpro\SoapClient\Soap\ClassMap\ClassMap;
  */
 class MetisClassmap
 {
-
-  /**
-   * @return \Phpro\SoapClient\Soap\ClassMap\ClassMapCollection
-   */
-  public static function getCollection() : ClassMapCollection
+    /**
+     * @return \Phpro\SoapClient\Soap\ClassMap\ClassMapCollection
+     */
+    public static function getCollection() : ClassMapCollection
     {
         return new ClassMapCollection([
             new ClassMap('orderPixelRequest', Type\OrderPixelRequest::class),
@@ -31,5 +30,4 @@ class MetisClassmap
             new ClassMap('tomFault', Type\TomFault::class),
         ]);
     }
-
 }

@@ -11,7 +11,6 @@ use Phpro\SoapClient\Type\RequestInterface;
  */
 class PixelOverviewRequest implements RequestInterface
 {
-
     /**
      * @var int
      */
@@ -73,5 +72,4 @@ class PixelOverviewRequest implements RequestInterface
 
         return $new;
     }
-
 }

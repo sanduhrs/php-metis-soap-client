@@ -9,7 +9,6 @@ namespace sanduhrs\Metis\Type;
  */
 class Pixel
 {
-
     /**
      * @var string
      */
@@ -59,5 +58,4 @@ class Pixel
 
         return $new;
     }
-
 }

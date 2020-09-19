@@ -9,7 +9,6 @@ namespace sanduhrs\Metis\Type;
  */
 class Pixels
 {
-
     /**
      * @var \sanduhrs\Metis\Type\Pixel
      */
@@ -34,5 +33,4 @@ class Pixels
 
         return $new;
     }
-
 }

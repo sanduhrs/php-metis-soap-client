@@ -9,7 +9,6 @@ namespace sanduhrs\Metis\Type;
  */
 class TomFault
 {
-
     /**
      * @var int
      */
@@ -59,5 +58,4 @@ class TomFault
 
         return $new;
     }
-
 }

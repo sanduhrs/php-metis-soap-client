@@ -19,7 +19,6 @@ use sanduhrs\Metis\Type\PixelOverviewResponse;
  */
 class MetisClient extends Client
 {
-
     /**
      * @param RequestInterface|Type\OrderPixelRequest $orderPixelRequest
      * @return ResultInterface|Type\OrderPixelResponse
@@ -39,5 +38,4 @@ class MetisClient extends Client
     {
         return $this->call('pixelOverview', $pixelOverviewRequest);
     }
-
 }

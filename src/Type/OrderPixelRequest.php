@@ -11,7 +11,6 @@ use Phpro\SoapClient\Type\RequestInterface;
  */
 class OrderPixelRequest implements RequestInterface
 {
-
     /**
      * @var int
      */
@@ -46,5 +45,4 @@ class OrderPixelRequest implements RequestInterface
 
         return $new;
     }
-
 }

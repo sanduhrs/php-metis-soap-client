@@ -11,7 +11,6 @@ use Phpro\SoapClient\Type\ResultInterface;
  */
 class PixelOverviewResponse implements ResultInterface
 {
-
     /**
      * @var string
      */
@@ -86,5 +85,4 @@ class PixelOverviewResponse implements ResultInterface
 
         return $new;
     }
-
 }

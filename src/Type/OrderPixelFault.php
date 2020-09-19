@@ -9,7 +9,6 @@ namespace sanduhrs\Metis\Type;
  */
 class OrderPixelFault
 {
-
     /**
      * @var int
      */
@@ -34,5 +33,4 @@ class OrderPixelFault
 
         return $new;
     }
-
 }
